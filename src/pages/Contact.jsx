@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <section id="contact" className="bg-white py-16 px-6">
+    <section id="contact" className="py-16 px-6">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-4xl mt-10 font-semibold text-center  mb-10">Contact Me</h2>
         <p className="text-center mb-8">
@@ -12,7 +12,8 @@ export default function Contact() {
         {/* Contact Info */}
         <div className="text-center mb-10">
           <p><strong>Email:</strong> nikita@example.com</p>
-          <p className="text-gray-700"><strong>Location:</strong> Janakpur, Nepal</p>
+          {/* <p className="text-gray-700"><strong>Location:</strong> Janakpur, Nepal</p> */}
+          <p><strong>Location:</strong> Janakpur, Nepal</p>
           <p ><strong>Phone: </strong>+91 8797296088</p>
         </div>
 
@@ -43,7 +44,7 @@ export default function Contact() {
             <textarea
               id="message"
               rows="5"
-              className="w-full border border-gray-300 rounded-md p-2"
+              className="w-full card rounded-md p-2"
               placeholder="Your message..."
               required
             ></textarea>

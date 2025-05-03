@@ -9,6 +9,7 @@ section{
 }
 .container{
   background-color: #262B40;
+  padding: 20px;
 }
 .card-container{
   background-color: #282d43 ;
@@ -18,11 +19,22 @@ section{
   /* background-color: #2f354b; */
   background-color: #2d3348;
   cursor: pointer;
+  border:none;
+  outline:none;
+}
+.description{
+  background-color: #363c52;
+  padding: 10px;
+  border-radius: 10px;
 }
 .card:hover{
   background-color:#313950 ;
-   border: 2px solid rgb(54, 135, 159); 
+   /* border: 2px solid rgb(54, 135, 159);  */
+   border:1px solid #59B2F4; 
+   box-shadow: 1px 1px 2px #59B2F4;
+  
 }
+
 .social-btn {
   display: inline-flex;
   align-items: center;
@@ -42,26 +54,6 @@ section{
 .icon {
   font-size: 1.25rem;
 }
-/* .social-circle {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-  background-color: #2d2d2d;
-  color: white;
-  font-size: 1.25rem;
-  transition: transform 0.3s ease, background-color 0.3s ease;
-  text-decoration: none;
-}
-
-.social-circle:hover {
-  background-color: #444;
-  transform: scale(1.1);
-} */
-
-
 .social-circle {
   display: inline-flex;
   align-items: center;
@@ -82,3 +74,27 @@ section{
   transform: scale(1.1);
 }
 
+
+
+@layer utilities {
+  .hover-pop {
+    /* border: 3px solid rgb(54, 135, 159);  */
+    /* box-shadow: 2px 2px 3px 3px rgb(61, 141, 165) ; */
+    box-shadow: 0px 10px 20px  rgb(61, 141, 165) ;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .hover-pop:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(255, 192, 203, 0.4); /* soft pink glow */
+  }
+}
+.about-me{
+  /* color:#59B2F4; */
+  /* color:#FF2E63; */
+  color:#59B2F4;
+}
+/* bg-gradient-to-r from-pink-400 to-pink-600 */
+a{
+  text-decoration: none;
+}

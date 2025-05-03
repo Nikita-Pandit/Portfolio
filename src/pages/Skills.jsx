@@ -75,7 +75,11 @@ export default function Skills() {
   return (
     <section id="skills" className="min-h-screen mt-10 bg-gray-50 py-16 px-6">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-4xl font-semibold text-center  mb-8">Skills & Expertise</h2>
+        <h2 
+        // className="text-4xl font-semibold text-center  mb-8"
+        //  className="bg-gradient-to-r from-pink-400 to-pink-600 text-4xl text-center font-semibold text-transparent mb-8 bg-clip-text"
+        className="text-4xl font-semibold text-center mb-8 about-me"
+        >Skills & Expertise</h2>
 
         <p className="text-lg  text-center mb-12">
           I am constantly honing my technical and soft skills, and here are a few areas where I specialize. From building
@@ -84,7 +88,7 @@ export default function Skills() {
 
         {/* Technical Skills */}
         <div className="mb-10">
-          <h3 className="text-2xl font-semibold text-indigo-700 mb-6">Technical Skills</h3>
+          <h3 className="text-2xl font-semibold about-me mb-6">Technical Skills</h3>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
             <div className=" p-4 card rounded-lg shadow-sm hover:shadow-md transition">
               <h4 className="text-xl font-semibold ">HTML & CSS</h4>
@@ -103,19 +107,24 @@ export default function Skills() {
               <p className="mt-2">Creating back-end servers and APIs to power web applications.</p>
             </div>
             <div className="card p-4 rounded-lg shadow-sm hover:shadow-md transition">
-              <h4 className="text-xl font-semibold text-indigo-600">MongoDB</h4>
+              <h4 className="text-xl font-semibold">MongoDB</h4>
               <p className="mt-2">Designing and managing databases to support complex data structures.</p>
             </div>
-            <div className="border border-gray-200 p-4 rounded-lg shadow-sm hover:shadow-md transition">
-              <h4 className="text-xl font-semibold text-indigo-600">Git & GitHub</h4>
-              <p className="text-gray-600 mt-2">Version control and collaboration with Git and GitHub for better project management.</p>
+            <div className="card p-4 rounded-lg shadow-sm hover:shadow-md transition">
+              <h4 className="text-xl font-semibold">Git & GitHub</h4>
+              <p className="mt-2">Version control and collaboration with Git and GitHub for better project management.</p>
             </div>
           </div>
         </div>
 
         {/* Soft Skills */}
         <div>
-          <h3 className="text-2xl font-semibold text-indigo-700 mb-6">Soft Skills</h3>
+          <h3 
+          className="text-2xl 
+          font-semibold 
+           about-me
+          mb-6"
+          >Soft Skills</h3>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
             <div className="card p-4 rounded-lg shadow-sm hover:shadow-md transition">
               <h4 className="text-xl font-semibold">Communication</h4>
@@ -133,9 +142,13 @@ export default function Skills() {
               <h4 className="text-xl font-semibold">Teamwork</h4>
               <p className=" mt-2">Collaborating and learning with others to achieve common goals.</p>
             </div>
-            <div className="border border-gray-200 p-4 rounded-lg shadow-sm hover:shadow-md transition">
+            {/* <div className="border border-gray-200 p-4 rounded-lg shadow-sm hover:shadow-md transition">
               <h4 className="text-xl font-semibold text-indigo-600">Adaptability</h4>
               <p className="text-gray-600 mt-2">Quickly adjusting to new tools, workflows, and environments.</p>
+            </div> */}
+              <div className="card  p-4 rounded-lg shadow-sm hover:shadow-md transition">
+              <h4 className="text-xl font-semibold">Adaptability</h4>
+              <p className="mt-2">Quickly adjusting to new tools, workflows, and environments.</p>
             </div>
           </div>
         </div>
