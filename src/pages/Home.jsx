@@ -229,6 +229,7 @@
 
 
 import React from 'react';
+import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin, FaTwitter, FaInstagram } from 'react-icons/fa';
 // import profileImg from '../assets/nobita.jpg';
 
