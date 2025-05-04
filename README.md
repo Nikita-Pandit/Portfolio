@@ -2,34 +2,23 @@ Welcome to my personal developer portfolio built using React and Tailwind CSS! T
 
 🚀 Features
 ✨ Smooth scroll and section navigation
-
 🧑‍💻 About Me section with skills and experience
-
 📁 Projects section with interactive cards
-
 💬 Contact form with styled inputs
-
 📍 Clickable email and phone icons to initiate direct contact
-
 🎨 Fully responsive design
-
 🌙 Dark-themed user interface
 
 📸 Preview
-(Add a screenshot or a link to your live site if deployed)
+
 
 🔧 Tech Stack
 Frontend: React.js
-
 Styling: Tailwind CSS, custom CSS
-
 Icons: Font Awesome / React Icons
-
-(If hosted) Deployment: GitHub Pages / Vercel / Netlify
+Deployment: https://portfolio-henna-gamma-93.vercel.app/
 
 📫 Contact
-📧 Email: nikita@example.com
-
+📧 Email: nikitapandit651@gmail.com
 📞 Phone: +91 8797296088
-
 📍 Location: Janakpur, Nepal
