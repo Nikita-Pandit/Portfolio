@@ -1,5 +1,5 @@
 
-                                                    ###
+                                                    ### ABC
 Welcome to my personal developer portfolio built using React and Tailwind CSS! This website showcases my projects, skills, and ways to connect with me. It's designed to reflect my personality, coding style, and passion for web development.
 
 ## 🚀 Features
@@ -18,9 +18,6 @@ Welcome to my personal developer portfolio built using React and Tailwind CSS! T
 
 🌙 Dark-themed user interface
 
-## 📸 Preview
-
-
 ## 🔧 Tech Stack
 
 Frontend: React.js
@@ -38,3 +35,14 @@ Deployment: https://portfolio-henna-gamma-93.vercel.app/
 📞 Phone: +91 8797296088
 
 📍 Location: Janakpur, Nepal
+
+## 🛠️ Installation & Setup
+To run this project locally:
+
+git clone https://github.com/yourusername/portfolio.git
+cd portfolio
+npm install
+npm run dev
+
+Make sure you have Node.js and npm installed.
+
