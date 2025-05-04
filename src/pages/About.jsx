@@ -65,7 +65,7 @@ export default function About() {
         </h2>
 
         <p className="text-xl mb-6 leading-relaxed">
-          Hi! I'm <span className="font-semibold text-white">Nikita Pandit</span>, a passionate and ambitious full-stack developer from Nepal. I’m currently pursuing my B.Tech in Computer Science and Engineering from the Kalinga Institute of Industrial Technology. I love building scalable solutions and tackling challenging problems in web development.
+          Hi! I'm <span className=" text-white">Nikita Pandit</span>, a passionate and ambitious full-stack developer from Nepal. I’m currently pursuing my B.Tech in Computer Science and Engineering from the Kalinga Institute of Industrial Technology. I love building scalable solutions and tackling challenging problems in web development.
         </p>
         <p className="text-xl mb-10 leading-relaxed">
           My mission is to empower others through tech and make a meaningful impact. Outside of coding, I enjoy volunteering, reading, and working on personal growth to contribute positively to the world.
@@ -81,6 +81,11 @@ export default function About() {
             'Node.js & Express',
             'MongoDB',
             'Git & GitHub',
+            'TypeScript',
+'python',
+'Java',
+'SQL',
+'Next.js'
           ].map((skill, idx) => (
             <div
               key={idx}

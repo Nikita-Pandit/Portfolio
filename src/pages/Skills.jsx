@@ -114,6 +114,7 @@ export default function Skills() {
               <h4 className="text-xl font-semibold">Git & GitHub</h4>
               <p className="mt-2">Version control and collaboration with Git and GitHub for better project management.</p>
             </div>
+           
           </div>
         </div>
 

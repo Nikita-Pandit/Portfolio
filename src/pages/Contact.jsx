@@ -1,5 +1,5 @@
 import React from "react";
-
+import { MdEmail, MdLocationOn, MdPhone } from "react-icons/md";
 export default function Contact() {
   return (
     <section id="contact" className="py-16 px-6">
@@ -10,12 +10,29 @@ export default function Contact() {
         </p>
 
         {/* Contact Info */}
-        <div className="text-center mb-10">
+        {/* <div className="text-center mb-10">
           <p><strong>Email:</strong> nikita@example.com</p>
-          {/* <p className="text-gray-700"><strong>Location:</strong> Janakpur, Nepal</p> */}
+          <p className="text-gray-700"><strong>Location:</strong> Janakpur, Nepal</p>
           <p><strong>Location:</strong> Janakpur, Nepal</p>
           <p ><strong>Phone: </strong>+91 8797296088</p>
+        </div> */}
+                {/* Contact Info */}
+                <div className="text-center mb-10 space-y-2">
+          <p>
+            <a href="mailto:nikitapandit651@gmail.com" className="flex justify-center items-center gap-2 hover:text-[#59B2F4] transition">
+              <MdEmail className="text-xl" /> nikitapandit651@gmail.com
+            </a>
+          </p>
+          <p className="flex justify-center items-center gap-2">
+            <MdLocationOn className="text-xl" /> Janakpur, Nepal
+          </p>
+          <p>
+            <a href="tel:+918797296088" className="flex justify-center items-center gap-2 hover:text-[#59B2F4] transition">
+              <MdPhone className="text-xl" /> +91 8797296088
+            </a>
+          </p>
         </div>
+
 
         {/* Contact Form */}
         <form className="max-w-xl mx-auto space-y-6">

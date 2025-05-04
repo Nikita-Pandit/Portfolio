@@ -268,7 +268,7 @@ export default function Home() {
             <a href="https://github.com/Nikita-Pandit" target="_blank" rel="noopener noreferrer" className="social-circle" aria-label="GitHub">
               <FaGithub />
             </a>
-            <a href="https://linkedin.com/in/nikita-pandit" target="_blank" rel="noopener noreferrer" className="social-circle" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/nikita-pandit-120274262/" target="_blank" rel="noopener noreferrer" className="social-circle" aria-label="LinkedIn">
               <FaLinkedin />
             </a>
             <a href="https://twitter.com/yourhandle" target="_blank" rel="noopener noreferrer" className="social-circle" aria-label="Twitter">
@@ -277,7 +277,7 @@ export default function Home() {
             <a href="https://instagram.com/yourhandle" target="_blank" rel="noopener noreferrer" className="social-circle" aria-label="Instagram">
               <FaInstagram />
             </a>
-            <a href="/project" className="bg-violet-600 text-white text-center px-4 py-2 rounded-full hover:bg-violet-500 transition">
+            <a href="/project" className="bg-violet-600 text-white text-center px-4 py-3 rounded-full hover:bg-violet-500 transition">
               View Projects
             </a>
           </div>
@@ -287,7 +287,7 @@ export default function Home() {
         <div className="w-full  md:w-1/2 flex justify-center">
           <img
             // src={profileImg}
-            src="/nobita.jpg"
+            src="/images.jpeg"
             alt="Nikita Pandit"
             // className="w-64 h-64 rounded-full object-cover shadow-lg border-4 border-white"
             className="rounded-full image w-100 h-100 object-cover hover-pop"
