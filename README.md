@@ -30,6 +30,9 @@ Icons: Font Awesome / React Icons
 Deployment: https://portfolio-henna-gamma-93.vercel.app/
 
 📫 Contact
+
 📧 Email: nikitapandit651@gmail.com
+
 📞 Phone: +91 8797296088
+
 📍 Location: Janakpur, Nepal
