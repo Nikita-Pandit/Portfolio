@@ -1,12 +1,35 @@
-# React + Vite
+Welcome to my personal developer portfolio built using React and Tailwind CSS! This website showcases my projects, skills, and ways to connect with me. It's designed to reflect my personality, coding style, and passion for web development.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+✨ Smooth scroll and section navigation
 
-Currently, two official plugins are available:
+🧑‍💻 About Me section with skills and experience
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📁 Projects section with interactive cards
 
-## Expanding the ESLint configuration
+💬 Contact form with styled inputs
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📍 Clickable email and phone icons to initiate direct contact
+
+🎨 Fully responsive design
+
+🌙 Dark-themed user interface
+
+📸 Preview
+(Add a screenshot or a link to your live site if deployed)
+
+🔧 Tech Stack
+Frontend: React.js
+
+Styling: Tailwind CSS, custom CSS
+
+Icons: Font Awesome / React Icons
+
+(If hosted) Deployment: GitHub Pages / Vercel / Netlify
+
+📫 Contact
+📧 Email: nikita@example.com
+
+📞 Phone: +91 8797296088
+
+📍 Location: Janakpur, Nepal
