@@ -232,7 +232,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin, FaTwitter, FaInstagram } from 'react-icons/fa';
 // import profileImg from '../assets/nobita.jpg';
-
+import { Link } from 'react-router-dom';
 
 export default function Home() {
   return (
@@ -277,9 +277,24 @@ export default function Home() {
             <a href="https://instagram.com/yourhandle" target="_blank" rel="noopener noreferrer" className="social-circle" aria-label="Instagram">
               <FaInstagram />
             </a> */}
-            <a href="https://portfolio-henna-gamma-93.vercel.app/project" className="bg-violet-600 text-white text-center px-4 py-3 rounded-full hover:bg-violet-500 transition">
+
+            <a href="https://portfolio-henna-gamma-93.vercel.app/project" className="bg-violet-600 text-white text-center px-4 py-3 rounded-full hover:bg-violet-500 transition"> </a>
+
+            {/* <a href="" className="bg-violet-600 text-white text-center px-4 py-3 rounded-full hover:bg-violet-500 transition">
+
               View Projects
-            </a>
+            </a> */}
+          
+              <Link
+                to="project"
+                // smooth={true}
+                // duration={500}
+                // className="cursor-pointer navbar-hover"
+                className="bg-violet-600 text-white text-center px-4 py-3 rounded-full hover:bg-violet-500 transition"
+              >
+               View Projects
+              </Link>
+         
           </div>
         </div>
 

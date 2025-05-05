@@ -92,6 +92,7 @@ header{
   .hover-pop:hover {
     transform: scale(1.1);
     box-shadow: 0 10px 20px rgba(255, 192, 203, 0.4); /* soft pink glow */
+    cursor: pointer;
   }
 }
 .about-me{
@@ -106,4 +107,5 @@ a{
 
 .navbar-hover:hover{
   color:#59B2F4;
+  cursor: pointer;
 }
