@@ -278,7 +278,7 @@ export default function Home() {
               <FaInstagram />
             </a> */}
 
-            <a href="https://portfolio-henna-gamma-93.vercel.app/project" className="bg-violet-600 text-white text-center px-4 py-3 rounded-full hover:bg-violet-500 transition"> </a>
+       
 
             {/* <a href="" className="bg-violet-600 text-white text-center px-4 py-3 rounded-full hover:bg-violet-500 transition">
 
