@@ -51,17 +51,17 @@ export default function Navbar() {
                 Projects
               </Link>
             </li>
-            <li>
-              {/* <Link
+            {/* <li>
+              <Link
                 to="resume"
                 smooth={true}
                 duration={500}
                 className="cursor-pointer hover:text-indigo-600"
               >
                 Resume
-              </Link> */}
+              </Link> 
               <a href="https://drive.google.com/drive/u/0/folders/1iRwv_8Pr3rdM4XzuXtLeZIJPtFQjSaZd">Resume</a>
-            </li>
+            </li> */}
             <li>
               <Link
                 to="contact"

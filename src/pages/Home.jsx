@@ -271,12 +271,12 @@ export default function Home() {
             <a href="https://www.linkedin.com/in/nikita-pandit-120274262/" target="_blank" rel="noopener noreferrer" className="social-circle" aria-label="LinkedIn">
               <FaLinkedin />
             </a>
-            <a href="https://twitter.com/yourhandle" target="_blank" rel="noopener noreferrer" className="social-circle" aria-label="Twitter">
+            {/* <a href="https://twitter.com/yourhandle" target="_blank" rel="noopener noreferrer" className="social-circle" aria-label="Twitter">
               <FaTwitter />
             </a>
             <a href="https://instagram.com/yourhandle" target="_blank" rel="noopener noreferrer" className="social-circle" aria-label="Instagram">
               <FaInstagram />
-            </a>
+            </a> */}
             <a href="/project" className="bg-violet-600 text-white text-center px-4 py-3 rounded-full hover:bg-violet-500 transition">
               View Projects
             </a>
@@ -290,7 +290,7 @@ export default function Home() {
             src="/images.jpeg"
             alt="Nikita Pandit"
             // className="w-64 h-64 rounded-full object-cover shadow-lg border-4 border-white"
-            className="rounded-full image w-100 h-100 object-cover hover-pop"
+            className="rounded-full  w-100 h-100 object-cover hover-pop"
 
           />
         </div>

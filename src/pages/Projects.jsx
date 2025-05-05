@@ -374,31 +374,34 @@ const projects = [
     description: "A MERN-based collaboration platform for college students and teachers. Features include domain-based filtering, real-time messaging, teacher ratings, and student CGPA filtering.",
     tech: ["MongoDB", "Express", "React", "Node.js"],
     link: "https://github.com/Nikita-Pandit/EduConnect",
+    image:"/edu8.jpg"
   },
   {
     title: "Shopshere",
     description: "Frontend with React.js & Tailwind CSS, JWT-based authentication, admin dashboard, and dynamic product recommendations using FP-Growth algorithm. Responsive UI & efficient data flow with Axios.",
     tech: ["React.js", "Tailwind CSS", "JWT", "Axios"],
     link: "https://github.com/Nikita-Pandit/MINI_PROJECT",
+    image:"/shop12.jpg"
   },
   {
     title: "Grand Horizon",
     description: "A hotel booking system with login/signup using JWT, admin dashboard, dynamic pricing, and room management built using MERN stack.",
     tech: ["React", "Node.js", "Express", "MongoDB", "JWT"],
     link: "https://github.com/Nikita-Pandit/Hotel_Booking_System",
+    image:"/hotel.jpg"
   },
-  {
-    title: "Instagram Story Feature",
-    description: "Frontend clone of Instagram's story UI using HTML, CSS, and JS to mimic story-swiping interaction.",
-    tech: ["HTML", "CSS", "JavaScript"],
-    link: "https://github.com/Nikita-Pandit/Instagram_story_Feature",
-  },
-  {
-    title: "Instagram Love Button",
-    description: "Interactive heart animation on photo click, mimicking Instagram’s like feature using only HTML, CSS, and JS.",
-    tech: ["HTML", "CSS", "JavaScript"],
-    link: "https://github.com/Nikita-Pandit/Instagram_love_button",
-  }
+  // {
+  //   title: "Instagram Story Feature",
+  //   description: "Frontend clone of Instagram's story UI using HTML, CSS, and JS to mimic story-swiping interaction.",
+  //   tech: ["HTML", "CSS", "JavaScript"],
+  //   link: "https://github.com/Nikita-Pandit/Instagram_story_Feature",
+  // },
+  // {
+  //   title: "Instagram Love Button",
+  //   description: "Interactive heart animation on photo click, mimicking Instagram’s like feature using only HTML, CSS, and JS.",
+  //   tech: ["HTML", "CSS", "JavaScript"],
+  //   link: "https://github.com/Nikita-Pandit/Instagram_love_button",
+  // }
 ];
 
 export default function Projects() {
@@ -406,6 +409,9 @@ export default function Projects() {
     <section id="projects" className="min-h-screen py-16 px-6 bg-[#262B40] text-white">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold mb-6 mt-10 about-me text-center">Projects</h2>
+        <p className="text-lg text-center mb-12">
+  Explore a collection of my recent projects that demonstrate my skills and expertise in full-stack development, UI design, and problem-solving. Each project reflects my commitment to creating user-centric solutions using modern technologies.
+</p>
         <div className="grid card-container p-5 gap-10 md:grid-cols-2">
           {projects.map((project, index) => (
             <motion.div
@@ -417,6 +423,11 @@ export default function Projects() {
               transition={{ duration: 0.5, delay: index * 0.2 }}
               viewport={{ once: true }}
             >
+               <img
+    src={project.image}
+    alt={project.title}
+    className="w-full h-58 object-cover rounded-lg mb-4"
+  />
               <h3 className="text-2xl font-semibold mb-2">{project.title}</h3>
               <p className="text-sm text-gray-300 mb-4">{project.description}</p>
               <div className="flex flex-wrap gap-2 mb-4">
