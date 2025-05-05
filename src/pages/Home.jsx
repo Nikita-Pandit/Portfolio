@@ -277,7 +277,7 @@ export default function Home() {
             <a href="https://instagram.com/yourhandle" target="_blank" rel="noopener noreferrer" className="social-circle" aria-label="Instagram">
               <FaInstagram />
             </a> */}
-            <a href="/project" className="bg-violet-600 text-white text-center px-4 py-3 rounded-full hover:bg-violet-500 transition">
+            <a href="https://portfolio-henna-gamma-93.vercel.app/project" className="bg-violet-600 text-white text-center px-4 py-3 rounded-full hover:bg-violet-500 transition">
               View Projects
             </a>
           </div>
