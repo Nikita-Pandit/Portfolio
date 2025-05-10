@@ -302,7 +302,7 @@ export default function Home() {
         <div className="w-full  md:w-1/2 flex justify-center">
           <img
             // src={profileImg}
-            src="/images.jpeg"
+            src="/NikitaPandit.png"
             alt="Nikita Pandit"
             // className="w-64 h-64 rounded-full object-cover shadow-lg border-4 border-white"
             className="rounded-full  w-100 h-100 object-cover hover-pop"

@@ -356,7 +356,7 @@ export default function About() {
         {/* Left: Image */}
         <div className="flex-shrink-0 w-full md:w-1/3 flex justify-center md:justify-start">
           <img
-            src="/images.jpeg" // Replace with your image path
+            src="/NikitaPandit.png" // Replace with your image path
             alt="Nikita Pandit"
             className="w-70 h-70 hover-pop object-cover mt-30 rounded-full shadow-lg border-4 border-indigo-500"
           />
